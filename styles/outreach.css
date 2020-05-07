@@ -1,0 +1,257 @@
+html {
+    height: 100%;
+  }
+  
+head{
+
+}
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+  body{
+    background-image: linear-gradient(rgb(9, 73, 9), rgb(168, 166, 10));
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .toprow{
+    position: relative;
+    height: 12vw;
+  }
+  
+  .toprow .logo{
+    float: right;
+    position: relative;
+    top: 0px;
+    width: 8.5vw;
+    height: auto;
+    right:0.8vw;
+    border-style: solid;
+    border-radius: 0.5vw;
+  }
+  
+  /* Header */
+  .toprow h1{
+      position: relative;
+      overflow: hidden;
+      top: 25%;
+      text-indent: 1%;
+      font-size: 4.5vw;
+      font-weight: bold;
+      color: white;
+      width: auto;
+      height: auto;
+  }
+  
+  /* Navbar container */
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    z-index: 1;
+  }
+  
+  .navbar .logos{
+    float: right;
+    position: relative;
+    top: -0.2vw;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+    align-items: center;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 2.5vw;
+    color: white;
+    text-align: center;
+    padding: 1.2vw 1.4vw;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown-seasons{
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown-sponsors
+  {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown-outreach
+  {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown-seasons .dropbtn-s{
+    font-size: 2.5vw; 
+    border: none;
+    outline: none;
+    color: white;
+    padding: 1.4vw 1.4vw;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones dont be dumb */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  .dropdown-sponsors .dropbtn-sp{
+    font-size: 2.5vw; 
+    border: none;
+    outline: none;
+    color: white;
+    padding: 1.4vw 1.4vw;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+  
+  .dropdown-outreach .dropbtn-o{
+    font-size: 2.5vw; 
+    border: none;
+    outline: none;
+    color: white;
+    padding: 1.4vw 1.4vw;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+  
+  /* Add a green background color to navbar links on hover */
+  .navbar a:hover, .dropdown-seasons:hover, .dropdown-outreach:hover, .dropdown-sponsors:hover {
+    background-color: rgb(119, 190, 119);
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content-s{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content-o{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content-sp{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content-s a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content-o a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content-sp a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content-s a:hover, .dropdown-content-p a:hover, .dropdown-content-o a:hover, .dropdown-content-sp a:hover{
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown-seasons:hover .dropdown-content-s{
+    display: block;
+  }
+  
+  .dropdown-outreach:hover .dropdown-content-o{
+    display: block;
+  }
+  
+  .dropdown-sponsors:hover .dropdown-content-sp{
+    display: block;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .main{
+    margin: 0vw auto;
+    margin-top: 4.71vw;
+    width: 102.4vw;
+    height: 51.2vw;
+    border: solid thin;
+  }
+
+  .main .title{
+    height: 6.4vw;
+    width: 38.4vw;
+    text-align: center;
+    border: solid thin;
+    float: left;
+  }
+
+  .main .title h1{
+    font-size: 3.6vw;
+  }
+
+  .main .img{
+    height: 43.2vw;
+    width: 63.6vw;
+    border: solid thin;
+    float: right;
+  }
+
+  .main .impact{
+    height: 44.8vw;
+    width: 38.4vw;
+    border: solid thin;
+    float: left;
+  }
+
+  .main .description{
+    height: 7.8vw;
+    width: 63.6vw;
+    border: solid thin;
+    float: right;
+    font-size: 1.2vw;
+  }
