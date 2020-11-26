@@ -1,0 +1,31 @@
+.border{
+    height: 40vw;
+    width: 80vw;
+    margin: 1.25vw auto;
+}
+
+.border .header{
+    height: auto;
+    width: 80vw;
+    text-align: center;
+    font-size: 5vw;
+    color: white;
+    margin-bottom: 1.5vw;
+}
+
+.border .info{
+    width: 40vw;
+    height: 32vw;
+    text-align: center;
+    font-size: 1.45vw;
+    padding: 1vw;
+    color: white;
+    float: left;
+}
+
+.border .img{
+    margin-left: 4vw;
+    width: 30vw;
+    height: 32vw;
+    float: left;
+}
