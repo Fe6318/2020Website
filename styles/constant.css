@@ -50,10 +50,11 @@ html {
   .navbar .logos{
     float: right;
     position: relative;
-    top: -0.2vw;
+    top: -0.2vw; 
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
     align-items: center;
+    margin-right: 1vw;
   }
   
   /* Links inside the navbar */
@@ -62,7 +63,7 @@ html {
     font-size: 2.5vw;
     color: white;
     text-align: center;
-    padding: 1.2vw 1.4vw;
+    padding: 1.2vw 1.2vw;
     text-decoration: none;
   }
   
@@ -72,14 +73,13 @@ html {
     overflow: hidden;
   }
   
-  .dropdown-sponsors
+  .dropdown-outreach
   {
     float: left;
     overflow: hidden;
   }
-  
-  .dropdown-outreach
-  {
+
+  .dropdown-sponsors{
     float: left;
     overflow: hidden;
   }
@@ -90,7 +90,7 @@ html {
     border: none;
     outline: none;
     color: white;
-    padding: 1.2vw 1.4vw;
+    padding: 1.2vw 1.3vw;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones dont be dumb */
     margin: 0; /* Important for vertical align on mobile phones */
@@ -101,7 +101,7 @@ html {
     border: none;
     outline: none;
     color: white;
-    padding: 1.2vw 1.4vw;
+    padding: 1.2vw 1.3vw;
     background-color: inherit;
     font-family: inherit; 
     margin: 0; 
@@ -112,7 +112,7 @@ html {
     border: none;
     outline: none;
     color: white;
-    padding: 1.2vw 1.4vw;
+    padding: 1.2vw 1.3vw;
     background-color: inherit;
     font-family: inherit; 
     margin: 0; 
