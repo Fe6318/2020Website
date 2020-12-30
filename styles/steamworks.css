@@ -1,35 +1,28 @@
 main{
-    height: 40vw;
-    width: 80vw;
-    margin: 1.25vw auto;
+    height: 43vw;
+    width: 98vw;
 }
 
-main .header{
+main img{
+    width: 30vw;
     height: auto;
-    width: 80vw;
-    text-align: center;
-    font-size: 5vw;
-    color: black;
-}
-
-main .info{
-    width: 40vw;
-    height: 32vw;
-    text-align: center;
-    padding: 1vw;
-    font-size: 1.1vw;
-    color: black;
     float: left;
 }
 
-main .img{
-    width: 37vw;
-    height: 34vw;
-    float: right;
+main .header{
+    width: 67vw;
+    height: 9vw;
+    font-size: 7vw;
+    text-align: center;
+    margin-top: 1vw;
+    float: left;
 }
 
-main .img img{
-    width: 25vw;
+main .info{
+    width: 63vw;
     height: auto;
-    margin: 0vw 6vw 0vw 6vw;
+    padding: 2vw;
+    text-align: center;
+    font-size: 1.3vw;
+    float: left;
 }

@@ -1,31 +1,28 @@
-.border{
+main{
+    width: 98vw;
     height: 40vw;
-    width: 80vw;
-    margin: 1.25vw auto;
 }
 
-.border .header{
+main img{
+    width: 30vw;
     height: auto;
-    width: 80vw;
-    text-align: center;
-    font-size: 5vw;
-    color: black;
-    margin-bottom: 1.5vw;
-}
-
-.border .info{
-    width: 40vw;
-    height: 32vw;
-    text-align: center;
-    font-size: 1.45vw;
-    padding: 1vw;
-    color: black;
     float: left;
 }
 
-.border .img{
-    margin-left: 4vw;
-    width: 30vw;
-    height: 32vw;
+main .header{
+    width: 67vw;
+    height: 9vw;
+    font-size: 7vw;
+    text-align: center;
+    margin-top: 2vw;
+    float: left;
+}
+
+main .body{
+    width: 64vw;
+    height: auto;
+    font-size: 1.5vw;
+    padding: 2vw;
+    text-align: center;
     float: left;
 }

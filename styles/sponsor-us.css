@@ -1,0 +1,104 @@
+.main{
+    width: 98vw;
+    height: 40vw;
+    float: left;
+}
+
+.main img{
+    width: 45vw;
+    height: auto;
+    float: left;
+}
+
+.main .header{
+    width: 46vw;
+    height: 9vw;
+    float: left;
+    padding-left: 2vw;
+    margin-top: 2vw;
+    font-size: 7vw;
+    text-align: center;
+}
+
+.main .info{
+    width: 46vw;
+    height: 2vw;
+    padding-left: 3.5vw;
+    float: left;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.main .levels{
+    width: 96vw;
+    height: auto;
+    margin: 30vw auto 0vw auto;
+    font-size: 4vw;
+    text-align: center;
+}
+
+.main .level{
+    width: 15vw;
+    height: 20vw;
+    margin: 2vw 2vw 5vw 2vw;
+    border: groove .1vw;
+    float: left;
+    text-align: center;
+    font-size: 2vw;
+    border-color: black;
+    border-radius: .75vw;
+}
+
+.main .level .bronze{
+    font-size: 1.5vw;
+    text-align: left;
+    margin-top: 3vw;
+}
+
+.main .level .bronze li{
+    margin-top: 1vw;
+}
+
+.main .level .silver{
+    font-size: 1.5vw;
+    text-align: left;
+}
+
+.main .level .silver li{
+    margin-top: .5vw;
+}
+
+.main .level .gold{
+    font-size: 1.5vw;
+    text-align: left;
+    margin-top: 3vw;
+}
+
+.main .level .gold li{
+    margin-top: 1vw;
+}
+
+.main .level .platinum{
+    font-size: 1.35vw;
+    text-align: left;
+}
+
+.main .level .platinum li{
+    margin-top: .2vw; 
+}
+
+.main .level .premier{
+    font-size: 1.35vw;
+    text-align: left;
+}
+
+.main .level .premier li{
+    margin-top: .4vw;
+}
+
+.main .space{
+    width: 80vw;
+    height: 5vw;
+    margin-top: 20vw;
+}

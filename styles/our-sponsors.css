@@ -1,0 +1,55 @@
+ .main{
+    width: 98.5vw;
+    height: 40vw;
+ }
+
+ .main img{
+     width: 30vw;
+     height: auto;
+     float: left;
+ }
+
+ .main .header{
+     width: 67vw;
+     height: 9vw;
+     float: left;
+     padding-left: 1vw;
+     font-size: 7vw;
+     text-align: center;
+ }
+
+ .main .info{
+     width: 68.3vw;
+     height: auto;
+     float: left;
+     font-size: 1.25vw;
+     text-align: center;
+ }
+
+ .main .Sponsors{
+     width: 68vw;
+     height: auto;
+     float: right;
+     font-size: 3vw;
+     margin-top: 4vw;
+     text-align: center;
+     text-decoration: underline;
+ }
+
+.main .ourSponsors{
+    height: auto;
+    width: auto;
+    float: left;
+    margin-top: 2vw;
+    margin-left: 10vw;
+}
+
+ .main .ourSponsors .level{
+     text-align: left;
+     margin-top: 1vw;
+     font-size: 2.5vw;
+ }
+
+ .main .ourSponsors .level ul{
+     font-size: 1.5vw;
+ }
