@@ -1,2 +1,15 @@
+.header{
+    width: 80vw;
+    height: 7.5vw;
+    margin: 2vw auto;
+    font-size: 7vw;
+    text-align: center;
+}
 
-  
+.info{
+    width: 40vw;
+    height: auto;
+    margin-top: 4vw;
+    margin-left: 9vw;
+    font-size: 2vw;
+}

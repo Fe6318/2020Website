@@ -1,0 +1,52 @@
+.header{
+    width: 80vw;
+    height: 7.5vw;
+    margin: 2vw auto;
+    font-size: 7vw;
+    text-align: center;
+}
+
+.info{
+    width: 40vw;
+    height: 20vw;
+    margin-left: 9vw;
+    margin-top: 5vw;
+}
+
+.info .head{
+    width: 40vw;
+    height: auto;
+    float: left;
+    font-size: 4vw;
+    text-align: center;
+    margin-top: 1vw;
+}
+
+.info .body{
+    width: 40vw;
+    height: auto;
+    float: left;
+    margin-top: 2vw;
+}
+
+.info .body ul{
+    font-size: 1.5vw;
+}
+
+.info .body ul li{
+    margin-top: 1.5vw;
+}
+
+iframe{
+    width: 30vw;
+    height: 25vw;  
+    margin-left: 50vw;
+    margin-top: -20vw; 
+    float: left;
+}
+
+.freeSpace{
+    width: 2vw;
+    height: 2vw;
+    margin-top: 5vw;
+}
